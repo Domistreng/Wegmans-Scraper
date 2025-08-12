@@ -20,12 +20,17 @@ from selenium.webdriver.support import expected_conditions as EC
 # --------------------------
 URLS = [
     "https://www.wegmans.com/shop/categories/2957350",  # Fruit
-    "https://www.wegmans.com/shop/categories/3289",     # Milk & Eggs
+    "https://www.wegmans.com/shop/categories/2957333", # Vegetables
+    "https://www.wegmans.com/shop/categories/2957104",  # Chicken
+    "https://www.wegmans.com/shop/categories/2957425", # Butter
+    "https://www.wegmans.com/shop/categories/2957426", # Cheese
+    "https://www.wegmans.com/shop/categories/2957472", # Baking
+
     # Add more URLs here
 ]
 CHROMEDRIVER_PATH = "../chromedriver"
 OUTPUT_FILE = "../data/interim/wegmans_multi_prices.csv"
-HEADLESS_MODE = False
+HEADLESS_MODE = True
 WAIT_TIME = 20
 
 # --------------------------
